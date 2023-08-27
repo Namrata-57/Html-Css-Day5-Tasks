@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            background-color: #FFF6DC;
+            margin:0;
+        }
+
+        .search-bar{
+            border:1px solid;
+            width:35%;
+            margin:50px 440px;
+            text-align: center;
+            padding:5px;
+            background-color: #C4C1A4;
+        }
+
+        .container{
+            display:flex;
+            flex-wrap: wrap;
+        }
+
+        .event {
+            background-color: #FFC6AC;
+            height:250px;
+            width:265px;
+            margin:36px;
+        }
+
+        h2{
+            text-align: center;
+        }
+
+        .image-box{
+            border:1px solid black;
+            margin-left:10px;
+            margin-top:2px;
+            width:110px;
+            height:150px;
+            float:left;
+        }
+
+        .image-icon{
+            padding:39px 20px;
+        }
+
+        .details{
+            padding:1px 12px 0 135px;
+            font-size: 19px;
+        }
+
+        .button{
+            padding:3px 5px;
+            margin:0 15px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .container {
+                justify-content: center;
+            }
+
+            .event {
+                width: calc(50% - 40px);           
+              }
+        }
+
+        @media screen and (max-width: 360px) {
+            .container {
+                justify-content: center;
+            }
+
+            .event {
+                width: 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="search-bar"> SEARCH EVENTS </div>
+    <div class="container">
+
+        <!--Event 1-->
+        <div class="event">
+            <h2>Event 1</h2>
+            <div class="image-box">
+                <img class="image-icon" src="/event-image.png" alt="event-image">
+            </div>
+            <div class="details">
+            <p>23 May 2020</p>
+            <p>Seats <br>Available: 23</p>
+            <input class="button" type="submit" value="Book Now" />
+            </div>
+        </div>
+        
+        <!--Event 2-->
+        <div class="event">
+            <h2>Event 2</h2>
+            <div class="image-box">
+                <img class="image-icon" src="/event-image.png" alt="event-image">
+            </div>
+            <div class="details">
+            <p>23 May 2020</p>
+            <p>Seats <br>Available: 23</p>
+            <input class="button" type="submit" value="Book Now" />
+            </div>
+        </div>
+
+        <!--Event 3-->
+        <div class="event">
+            <h2>Event 3</h2>
+            <div class="image-box">
+                <img class="image-icon" src="/event-image.png" alt="event-image">
+            </div>
+            <div class="details">
+            <p>23 May 2020</p>
+            <p>Seats <br>Available: 0</p>
+            <input class="button" type="submit" value="Sold Out" style="background-color:red; color:whitesmoke"/>
+            </div>
+        </div>
+        
+        <!--Event 4-->
+        <div class="event">
+            <h2>Event 4</h2>
+            <div class="image-box">
+                <img class="image-icon" src="/event-image.png" alt="event-image">
+            </div>
+            <div class="details">
+            <p>23 May 2020</p>
+            <p>Seats <br>Available: 23</p>
+            <input class="button" type="submit" value="Book Now" />
+            </div>
+        </div>
+
+        <!--Event 5-->
+        <div class="event">
+            <h2>Event 5</h2>
+            <div class="image-box">
+                <img class="image-icon" src="/event-image.png" alt="event-image">
+            </div>
+            <div class="details">
+            <p>23 May 2020</p>
+            <p>Seats <br>Available: 23</p>
+            <input class="button" type="submit" value="Book Now" />
+            </div>
+        </div>
+
+        <!--Event 6-->
+        <div class="event">
+            <h2>Event 6</h2>
+            <div class="image-box">
+                <img class="image-icon" src="/event-image.png" alt="event-image">
+            </div>
+            <div class="details">
+            <p>23 May 2020</p>
+            <p>Seats <br>Available: 0</p>
+            <input class="button" type="submit" value="Sold Out" style="background-color:red; color:whitesmoke"/>
+            </div>
+        </div>
+        
+        <!--Event 7-->
+        <div class="event">
+            <h2>Event 7</h2>
+            <div class="image-box">
+                <img class="image-icon" src="/event-image.png" alt="event-image">
+            </div>
+            <div class="details">
+            <p>23 May 2020</p>
+            <p>Seats <br>Available: 23</p>
+            <input class="button" type="submit" value="Book Now" />
+            </div>
+        </div>
+
+        <!--Event 8-->
+        <div class="event">
+            <h2>Event 8</h2>
+            <div class="image-box">
+                <img class="image-icon" src="/event-image.png" alt="event-image">
+            </div>
+            <div class="details">
+            <p>23 May 2020</p>
+            <p>Seats <br>Available: 23</p>
+            <input class="button" type="submit" value="Book Now" />
+            </div>
+        </div>
+
+    </div>    
+</body>
+</html>
